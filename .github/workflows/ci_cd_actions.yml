@@ -20,8 +20,8 @@ permissions:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ghcr.io/${{ github.repository }}:latest
-  CONTAINER_NAME: ${{ github.repository }}
-  VOLUME_NAME: ${{ github.repository }}-logs
+  CONTAINER_NAME: algoscalc-back-crow
+  VOLUME_NAME: algoscalc-back-crow-logs
 
 jobs:
   test:
