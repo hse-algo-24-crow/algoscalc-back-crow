@@ -15,7 +15,7 @@ def validate_matrix(matrix: list[list[int]]) -> None:
         
         count += 1
     if count != row_first_len:
-        raise AlgorithmValueError("Введена прямоугольная матрица")
+        raise AlgorithmValueError("Была введена прямоугольная матрица") 
 
 
 def get_minor(matrix, row, col):
