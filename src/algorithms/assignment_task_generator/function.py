@@ -50,10 +50,10 @@ def generate_matrix(order: int, min_cost: int, max_cost: int):
     # создаем матрицу заданного порядка
     matrix = [[0 for _ in range(order)] for _ in range(order)] 
 
-    # заполняем матрицу рандомно сгенерырованными значениями
-    for i in range(order):
+    # заполняем матрицу рандомно сгенерированными значениями
+    for l in range(order):
             for j in range(order):
-                matrix[i][j] = random.randint(min_cost, max_cost)
+                matrix[l][j] = random.randint(min_cost, max_cost)
 
     # создаем копию матрицы
     clone = copy.copy(matrix)

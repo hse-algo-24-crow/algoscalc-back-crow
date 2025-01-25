@@ -1,5 +1,6 @@
-import unittest
+
 import sys
+import unittest
 sys.path.append("C:\\Users\\Софья\\algoscalc-back-crow")
 from src.algorithms.assignment_task_generator.function import (
     MAX_COST_ERR_MSG,
