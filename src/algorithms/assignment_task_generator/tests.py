@@ -1,5 +1,6 @@
 import unittest
-
+import sys
+sys.path.append("C:\\Users\\Софья\\algoscalc-back-crow")
 from src.algorithms.assignment_task_generator.function import (
     MAX_COST_ERR_MSG,
     MAX_COST_TYPE_ERR_MSG,
@@ -87,4 +88,6 @@ class TestCase(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    
+
     unittest.main()
