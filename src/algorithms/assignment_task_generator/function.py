@@ -5,7 +5,6 @@ from typing import Any
 import sys
 sys.path.append("C:\\Users\\Софья\\algoscalc-back-crow")
 
-
 from src.internal.errors import AlgorithmTypeError, AlgorithmValueError
 from src.internal.errors.exceptions import AlgorithmRuntimeError
 

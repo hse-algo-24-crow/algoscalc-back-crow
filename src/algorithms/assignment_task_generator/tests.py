@@ -13,7 +13,6 @@ from src.algorithms.assignment_task_generator.function import (
 )
 from src.internal.errors import AlgorithmTypeError, AlgorithmValueError
 
-
 class TestCase(unittest.TestCase):
     def test_type(self):
         matrix = generate_matrix(5, 5, 15)
