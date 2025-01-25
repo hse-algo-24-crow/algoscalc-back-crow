@@ -66,7 +66,6 @@ def generate_matrix(order: int, min_cost: int, max_cost: int):
     return matrix
 
 
-
 def validate_matrix(order: int, matrix: list[list[int]]) -> bool:
     """
     Проверка матрицы на наличие в ней совершенного парасочетания

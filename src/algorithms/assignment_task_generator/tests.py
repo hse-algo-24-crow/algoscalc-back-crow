@@ -1,4 +1,3 @@
-
 import sys
 import unittest
 sys.path.append("C:\\Users\\Софья\\algoscalc-back-crow")
